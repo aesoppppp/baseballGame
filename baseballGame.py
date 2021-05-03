@@ -2,7 +2,10 @@ import random
 
 rn = []
 for _ in range(3):
-    rn.append(random.randint(0, 9))
+    a = random.randint(0, 9)
+    while a in rn:
+        a = random.randint(0, 9)
+    rn.append(a)
 
 # print(rn)
 
