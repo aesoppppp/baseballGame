@@ -1,2 +1,2 @@
-# baseballGame
+# BaseballGame
 It was hard
